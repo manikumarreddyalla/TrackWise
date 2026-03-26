@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 24px;
+            background: #f6f8fb;
+        }
+
+        .card {
+            max-width: 460px;
+            background: #ffffff;
+            border: 1px solid #d7deea;
+            border-radius: 10px;
+            padding: 18px;
+        }
+
+        label {
+            display: block;
+            margin-top: 12px;
+            margin-bottom: 6px;
+            font-weight: 600;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #bcc8dc;
+            box-sizing: border-box;
+        }
+
+        button {
+            margin-top: 14px;
+            padding: 10px 14px;
+            border: none;
+            border-radius: 8px;
+            background: #0f8b8d;
+            color: #ffffff;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Student Entry Form</h2>
+        <form action="insert.php" method="POST">
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name" required>
+
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" required>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <a href="display.php">View Saved Students</a>
+    </div>
+</body>
+</html>
