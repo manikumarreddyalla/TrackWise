@@ -8,6 +8,7 @@ Dynamic expense management and analytics web application built with PHP, MySQL, 
 - Expense CRUD (add, edit, delete)
 - Filters by date range, category, and search text
 - Category management (fixed/variable categories)
+- Recurring expenses support
 - SQL-powered analytics dashboard with Chart.js visualizations
 - Power BI-like report view with all expenses, highest-cost spending, and discretionary spend hints
 - Responsive UI with sidebar navigation and modal-based forms
